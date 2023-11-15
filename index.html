@@ -15,12 +15,12 @@
         // Mobile device style: fill the whole browser client area with the game canvas:
         var meta1 = document.createElement('meta');
         meta1.name = 'viewport';
-        meta1.content = 'width=device-width, height=device-height, initial-scale=0.5, user-scalable=no, shrink-to-fit=yes';
+        meta1.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
         document.getElementsByTagName('head')[0].appendChild(meta1);
 
         var canvas1 = document.querySelector("#unity-canvas");
-        canvas1.style.width = "50%";
-        canvas1.style.height = "50%";
+        canvas1.style.width = "100%";
+        canvas1.style.height = "100%";
         canvas1.style.position = "fixed";
       
       
